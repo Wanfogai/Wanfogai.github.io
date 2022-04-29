@@ -1,1 +1,66 @@
 
+html,body{
+	height: 100%;
+}
+
+body{
+	background-color: grey;
+}
+
+.hedoor{
+	background-color: rgb(25.334, 0, 223.13);
+	font-family: cursive;
+	border-radius: 15px;
+	left: 5px;
+	right: 5px;
+}
+
+.hedoor--fixed{
+	background-color: rgb(25.334, 0, 223.13);
+	font-family: cursive;
+	border-radius: 15px;
+	position: fixed;
+	left: 0px;
+	right: 1px;
+	margin-top: -8px;
+}
+
+.unhead{
+}
+
+.texte{
+    position: absolute;
+    font-size: xxx-large;
+    color: rgb(217.9, 247.03, 7.9688);
+    top: 21px;
+    left: 25px;
+}
+
+.buton{
+	font-size: x-large;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    top: 15px;
+    right: 600px;
+    text-indent: 135px;
+}
+
+a{
+	text-decoration: none;
+	color: rgb(163.43, 185.27, 5.9766);
+}
+
+.icon{
+	display: block;
+	border-radius: 15px;
+}
+
+.content{
+	font-family: 'Rubik', sans-serif;
+	border-style: double;
+	border-radius: 8px;
+	min-height: 200%;
+	background-color: antiquewhite;
+	font-size: larger;
+}
