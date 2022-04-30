@@ -121,7 +121,7 @@ a{
 
 footer{
 	position:relative;
-	width: 1013px;
+	width: -webkit-fill-available;
 	height: 85px;
 
 	background: radial-gradient(50.59% 50.59% at 50.05% 50.59%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
@@ -135,7 +135,7 @@ footer{
 	position:relative;
 	width: 209px;
 	height: 24px;
-	left: 402px;
+	margin: auto;
 
 	font-family: 'Inter';
 	font-style: normal;
