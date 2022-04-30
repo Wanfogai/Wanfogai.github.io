@@ -9,11 +9,11 @@ window.addEventListener('scroll', () => {
 
 
 	if (scrollDistance >= firstHeight + headerHeight){
-		head.classList.add('hedoor--fixed');
+		head.classList.add('head--fixed');
 		cont.style.marginTop = '${headerHeight}px';
 	}
 	else{
-		head.classList.remove('hedoor--fixed');
+		head.classList.remove('head--fixed');
 		cont.style.marginTop = null;
 	}
 });
