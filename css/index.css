@@ -120,7 +120,7 @@ a{
 }
 
 footer{
-	position: absolute;
+	position: relative;
 	width: 1013px;
 	height: 85px;
 
@@ -132,7 +132,7 @@ footer{
 }
 
 .endtxt{
-	position: absolute;
+	position: relative;
 	width: 209px;
 	height: 24px;
 	left: 402px;
