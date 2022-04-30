@@ -123,8 +123,6 @@ footer{
 	position: absolute;
 	width: 1013px;
 	height: 85px;
-	left: 0px;
-	top: 858px;
 
 	background: radial-gradient(50.59% 50.59% at 50.05% 50.59%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
 	border: 1px solid #FAEBD7;
@@ -137,8 +135,6 @@ footer{
 	position: absolute;
 	width: 209px;
 	height: 24px;
-	left: 402px;
-	top: 919px;
 
 	font-family: 'Inter';
 	font-style: normal;
