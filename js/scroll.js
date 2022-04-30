@@ -1,4 +1,4 @@
-const head = document.querySelector(".hedoor");
+const head = document.querySelector(".head");
 const cont = document.querySelector(".unhead");
 const headerHeight = head.offsetHeight;
 
