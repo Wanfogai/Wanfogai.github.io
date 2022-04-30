@@ -1,4 +1,3 @@
-
 html,body{
 	height: 100%;
 }
@@ -9,7 +8,6 @@ body{
 
 .unhead{
 }
-
 
 a{
 	text-decoration: none;
@@ -119,5 +117,4 @@ a{
 
 	color: #D2D62F;
 	list-style: none;
-
 }
