@@ -63,7 +63,7 @@ a{
 	left: 21px;
 	top: 24px;
 
-	font-family: 'Inter';
+	font-family: monospace;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -109,7 +109,7 @@ a{
 	right: 0;
 	top: 14px;
 
-	font-family: 'Inter';
+	font-family: monospace;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15px;
