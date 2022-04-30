@@ -27,7 +27,7 @@ a{
 }
 
 .head{
-	position: absolute;
+	position: relative;
 	width: -webkit-fill-available;
 	height: 97px;
 	left: 0px;
