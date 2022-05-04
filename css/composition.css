@@ -13,13 +13,13 @@ body{
 
 header{
 	position: relative;
-	background: #FFFFFF;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 0px 15px 15px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 0 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
 .logo{
@@ -80,21 +80,6 @@ h1{
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.abtxt{
-	background: rgba(196, 196, 196, 0.4);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 15px;
-	margin: 20px 20px;
-    	padding: 10px 10px;
-	
-    	font-family: 'Gravitas One';
-    	font-style: normal;
-   	font-weight: 400;
-    	font-size: 25px;
-    	color: #000000;
-
-}
-
 footer{
 	border-radius: 15px 15px 0px 0px;
 	background: #FFFFFF;
@@ -122,10 +107,62 @@ a:hover{
 	color: #0ac998;
 }
 
-.abtitle{
-	margin: 0 0;
-}
-
 li{
 	width: 100px;
+}
+
+.person{
+	background: rgba(196, 196, 196, 0.4);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	display: flex;
+	margin: 15px 20px;
+	align-items: center;
+}
+
+.combox{
+	background: #C4C4C4;
+	border-radius: 15px;
+	margin: 32px 32px;
+	width: fit-content;
+}
+
+.comtxt{
+	background: #AFAFAF;
+	border-radius: 15px;
+	margin: 15px 15px;
+}
+
+.txt{
+	font-family: 'Gravitas One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 46px;
+
+	color: #000000;
+
+	margin: 0 10px;
+}
+
+.ivan{
+	width: 229px;
+	height: 236px;
+
+	background: url(../img/ivan.jpg);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
+}
+
+.roma{
+	width: 229px;
+	height: 236px;
+
+	background: url(../img/roma.jpg);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
 }
