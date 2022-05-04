@@ -50,11 +50,11 @@ header{
 
 .undhead{
 	height: 298px;
-    	background: url(../img/undhead.jpg);
-    	background-size: cover;
-    	background-position: center;
-    	border-radius: 15px 15px 0px 0px;
-    	margin: 0 15px;
+    background: url(../img/undhead.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0 15px;
 }
 
 .content{
