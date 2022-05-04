@@ -1,152 +1,123 @@
-html,body{
-	height: 100%;
+html{
+	min-height: 100%;
 }
 
 body{
-	background-image: url("https://placepic.ru/wp-content/uploads/2018/10/6505189_xlarge.jpg");
+	min-height: 100%;
+	background: url(../img/backgr.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 0 10px;
 }
 
-.unhead{
-}
 
-a{
-	text-decoration: none;
-	color: rgb(163.43, 185.27, 5.9766);
-}
-
-.content{
-	font-family: 'Rubik', sans-serif;
-	border-style: double;
-	border-radius: 8px;
-	min-height: 200%;
-	background-color: antiquewhite;
-	font-size: larger;
-    border-color: dodgerblue;
-}
-
-.head{
+header{
 	position: relative;
-	width: -webkit-fill-available;
-	height: 97px;
-	left: 0px;
-	top: 0px;
-
-	background: #0B31B8;
+	background: #FFFFFF;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 15px;
-}
-
-.head--fixed{
-	position: fixed;
-	width: -webkit-fill-available;
-	height: 97px;
-	left: 0px;
-	top: 0px;
-
-	background: #0B31B8;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 15px;
+	border-radius: 0px 0px 15px 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
 }
 
 .logo{
-	position: absolute;
-	width: 97px;
-	height: 97px;
-	left: 0px;
-	top: 0px;
-}
-
-.home{
-	position: absolute;
-	width: 55px;
-	height: 48px;
-	left: 21px;
-	top: 24px;
-
-	font-family: monospace;
+	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
 	line-height: 48px;
-	text-decoration: none;
 
-	color: #FFC806;
+	color: #000000;
 
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.icon{
-	position: absolute;
-	width: 97px;
-	height: 97px;
-	left: 0px;
-	top: 0px;
-
-	border: 1px solid #000000;
-	box-sizing: border-box;
-	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-	border-radius: 15px 0px 0px 15px;
-}
-
-.menu{
-	position: absolute;
-	width: 86px;
-	height: 97px;
-	right: 0;
-	top: 0px;
-
-	background: #0C2A97;
-	border: 1px solid #000000;
-	box-sizing: border-box;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px 15px 15px 0px;
-}
-
 .button{
-	position: absolute;
-	width: 58px;
-	height: 18px;
-	right: 10px;
-	top: 14px;
-
-	font-family: monospace;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 18px;
-
-	color: #D2D62F;
 	list-style: none;
-}
-
-footer{
-	position:relative;
-	width: -webkit-fill-available;
-	height: 85px;
-
-	background: radial-gradient(50.59% 50.59% at 50.05% 50.59%, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
-	border: 1px solid #FAEBD7;
-	box-sizing: border-box;
-	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 15px 15px 0px 0px;
-}
-
-.endtxt{
-	position:relative;
-	width: 209px;
-	height: 24px;
-	margin: auto;
 
 	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 20px;
-	line-height: 24px;
+	font-size: 24px;
+
+	color: #000000;
+
+	display: inline-flex;
+	line-height: 0;
+}
+
+.undhead{
+	height: 298px;
+    background: url(../img/undhead.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0px 0px;
+    margin: 0 15px;
+}
+
+.content{
+	background: #FFFFFF;
+	border: 2px solid #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 0px 0px 15px 15px;
+	margin: 0 15px;
+	position: relative;
+}
+
+h1{
+	
+	font-family: 'Gravitas One';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 46px;
 	text-align: center;
 
-	background: linear-gradient(190.28deg, rgba(0, 0, 0, 0.99) 7.64%, rgba(239, 0, 0, 0.62) 92.32%);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	background-clip: text;
-	text-fill-color: transparent;
+	color: #000000;
+
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.abtxt{
+	background: rgba(196, 196, 196, 0.4);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	margin: 0 20px;
+    padding: 10px 10px;
+
+    font-family: 'Gravitas One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+
+}
+
+footer{
+	border-radius: 15px 15px 0px 0px;
+	background: #FFFFFF;
+	padding: 0 10px;
+}
+
+.footxt{
+	font-family: 'Itim';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	
+
+	color: #000000;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+.abtitle{
+	margin: 0 0;
+}
+
