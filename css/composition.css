@@ -145,3 +145,47 @@ li{
 	background-position: center;
 	margin: 32px 32px;
 }
+
+.artem{
+	width: 315px;
+	height: 236px;
+
+	background: url(../img/artem.jpg);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
+}
+
+.valera{
+	width: 315px;
+	height: 236px;
+
+	background: url(../img/valera.jpg);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
+}
+
+.danil{
+	width: 315px;
+	height: 236px;
+
+	background: url(../img/danil.png);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
+}
+
+.andrei{
+	width: 315px;
+	height: 236px;
+
+	background: url(../img/andrei.jpg);
+	border-radius: 15px;
+	background-size: cover;
+	background-position: center;
+	margin: 32px 32px;
+}
