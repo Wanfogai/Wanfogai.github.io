@@ -119,32 +119,6 @@ li{
 	margin: 15px 20px;
 }
 
-.combox{
-	background: #C4C4C4;
-	border-radius: 15px;
-	margin: 13px 13px;
-	width: -webkit-fill-available; 
-}
-
-.comtxt{
-	background: #AFAFAF;
-	border-radius: 15px;
-	margin: 15px 15px;
-	width: auto;
-}
-
-.txt{
-	font-family: 'Gravitas One';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 36px;
-	line-height: 46px;
-
-	color: #000000;
-
-	margin: 0 10px;
-}
-
 .ivan{
 	width: 315px;
 	height: 236px;
