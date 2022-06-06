@@ -95,6 +95,14 @@ h1{
 
 }
 
+footer{
+	border-radius: 15px 15px 0px 0px;
+	background: #FFFFFF;
+	padding: 25px 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
 .footxt{
 	font-family: 'Itim';
