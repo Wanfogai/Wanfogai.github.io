@@ -95,11 +95,6 @@ h1{
 
 }
 
-footer{
-	border-radius: 15px 15px 0px 0px;
-	background: #FFFFFF;
-	padding: 25px 10px;
-}
 
 .footxt{
 	font-family: 'Itim';
@@ -128,4 +123,14 @@ a:hover{
 
 li{
 	width: 100px;
+}
+
+.discordIco{
+	width: 50px;
+	height: 50px;
+}
+
+.discord{
+	display: inline-flex;
+	align-items: center;
 }
