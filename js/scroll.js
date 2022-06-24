@@ -1,19 +1,10 @@
-const head = document.querySelector(".head");
-const cont = document.querySelector(".unhead");
-const headerHeight = head.offsetHeight;
-
-const firstHeight = cont.offsetHeight;
-
-window.addEventListener('scroll', () => {
-	let scrollDistance = window.scrollY;
-
-
-	if (scrollDistance >= firstHeight + headerHeight){
-		head.classList.add('head--fixed');
-		cont.style.marginTop = '${headerHeight}px';
-	}
-	else{
-		head.classList.remove('head--fixed');
-		cont.style.marginTop = null;
-	}
-});
+function hashCode(string) {
+    var hash = 0, i, chr;
+    if (string.length === 0) return hash;
+    for (i = 0; i < string.length; i++) {
+      chr   = string.charCodeAt(i);
+      hash  = ((hash << 5) - hash) + chr;
+      hash |= 0;
+    }
+    return hash;
+  };
