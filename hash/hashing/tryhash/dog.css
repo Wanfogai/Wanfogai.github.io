@@ -1,7 +1,17 @@
 html{
     min-height: 100%;
 }
+
 body{
     min-height: 100%;
-    background-color: red;
+    background-color: white;
+    font-size: 25px;
 }
+
+li{
+    list-style: none;
+}
+
+/* img{
+    width:250px;
+} */
