@@ -1,5 +1,6 @@
 html{
 	min-height: 100%;
+	font-family: 'PT Sans', sans-serif;
 }
 
 body{
@@ -23,7 +24,6 @@ header{
 }
 
 .logo{
-	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 40px;
@@ -37,7 +37,6 @@ header{
 .button{
 	list-style: none;
 
-	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -70,7 +69,6 @@ header{
 
 h1{
 	
-	font-family: 'Gravitas One';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 36px;
@@ -91,7 +89,6 @@ footer{
 	justify-content: center;
 }
 .footxt{
-	font-family: 'Itim';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
